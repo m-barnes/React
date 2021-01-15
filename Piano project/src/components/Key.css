@@ -1,0 +1,29 @@
+.key {
+  background-color: white;
+  height: 20rem;
+  width: 4rem;
+  border: .125rem solid black;
+}
+
+.key.flat {
+  position: relative;
+  background-color: black;
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 12rem;
+  width: 1.75rem;
+  z-index: 2;
+}
+
+.key.pressed, .key.flat.pressed {
+  background-color: #00d8ff;
+}
+
+.key-text {
+  position:relative;
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 15rem;
+  pointer-events: none;
+}
